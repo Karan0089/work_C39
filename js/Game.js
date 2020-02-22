@@ -55,7 +55,7 @@ class Game {
       var index = 0;
 
       //x and y position of the cars
-      var x = 175 ;
+      var x = 250 ;
       var y;
 
       for(var plr in allPlayers){
@@ -89,7 +89,7 @@ class Game {
       player.update();
     }
 
-    if(player.distance > 3860){
+    if(player.distance > 4300){
       gameState = 2;
     }
    
